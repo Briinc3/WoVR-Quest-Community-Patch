@@ -4,6 +4,12 @@
 
 An unofficial community patch for **ProjectMimer's WoVR**, focused on improving World of Warcraft 3.3.5a VR functionality, comfort, Meta Quest controller support, and overall playability.
 
+## 🔧 Latest Update — August 22, 2026
+
+- Fixed an issue where pressing **LGrip + A** to open the map while moving could cause the character to suddenly turn 180°.
+- Removed unintended character-facing logic from the map input.
+- **LGrip + A** now opens the map without affecting character movement or facing.
+
 \---
 ## 🎥 See WoVR in Action
 
