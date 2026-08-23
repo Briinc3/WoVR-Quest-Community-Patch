@@ -6,6 +6,13 @@ An unofficial community patch for **ProjectMimer's WoVR**, focused on improving 
 
 ## 🔧 Latest Update — August 22, 2026
 
+🎮 Controller Binding Update
+Swapped the 5/6 and 9/10 action-slot mappings to create a more logical layout for kiting while moving in combat.
+B: 10 | Grip + B: 9
+X: 6 | Grip + X: 5
+This places frequently used kiting abilities on more comfortable inputs while maintaining movement control.
+No changes to the existing Y or thumbstick mappings.
+
 🎮 Grip Modifier Camera Jerk Fix
 Fixed unintended camera jerking/movement when using Grip-modified controls.
 Corrected conflicts affecting:
@@ -129,105 +136,37 @@ The controller system has been substantially redesigned around **actual VR gamep
 
 Quest grip buttons function as modifiers, allowing the limited number of physical controller buttons to access an entire primary World of Warcraft action bar while preserving important movement, targeting, mouse, map, inventory, and jumping controls.
 
-## Left Trigger
+VR Controller Layout
+Action Bar
+Controller Input	Action
+Right Stick Click	Action Bar Slot 2
+Either Grip + Right Stick Click	Action Bar Slot 1
+Left Stick Click	Action Bar Slot 4
+Either Grip + Left Stick Click	Action Bar Slot 3
+X	Action Bar Slot 6
+Either Grip + X	Action Bar Slot 5
+Y	Action Bar Slot 8
+Either Grip + Y	Action Bar Slot 7
+B	Action Bar Slot 10
+Either Grip + B	Action Bar Slot 9
+Left Trigger	Action Bar Slot 12
+Right Grip + Left Trigger	Action Bar Slot 11
+Left Grip + Left Trigger	Switch Action Page
+Movement & Utility
+Controller Input	Action
+Left Stick	Character Movement
+Right Stick	Camera Control
+A	Jump
+Right Grip + A	Tab Target / Target Nearest Enemy
+Left Grip + A	Open/Close World Map
+Right Trigger	Left Mouse Click
+Right Grip + Right Trigger	Right Mouse Click
+Left Grip + Right Trigger	Open/Close Backpack
+Why Is the Action Bar Arranged This Way?
 
-**Left Trigger**
+The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
 
-* Action Bar Slot 12
-
-**Right Grip + Left Trigger**
-
-* Action Bar Slot 11
-
-**Left Grip + Left Trigger**
-
-* Switch Action Page
-
-## Right Trigger
-
-**Right Trigger**
-
-* Left Mouse Click
-
-**Right Grip + Right Trigger**
-
-* Right Mouse Click
-
-**Left Grip + Right Trigger**
-
-* Open/Close Backpack
-
-## X Button
-
-**X**
-
-* Action Bar Slot 10
-
-**Either Grip + X**
-
-* Action Bar Slot 9
-
-## Y Button
-
-**Y**
-
-* Action Bar Slot 8
-
-**Either Grip + Y**
-
-* Action Bar Slot 7
-
-## B Button
-
-**B**
-
-* Action Bar Slot 6
-
-**Either Grip + B**
-
-* Action Bar Slot 5
-
-## Left Stick Click
-
-**Left Stick Click**
-
-* Action Bar Slot 4
-
-**Either Grip + Left Stick Click**
-
-* Action Bar Slot 3
-
-## Right Stick Click
-
-**Right Stick Click**
-
-* Action Bar Slot 2
-
-**Either Grip + Right Stick Click**
-
-* Action Bar Slot 1
-
-## A Button
-
-**A**
-
-* Jump
-
-**Right Grip + A**
-
-* Tab Target / Target Nearest Enemy
-
-**Left Grip + A**
-
-* Open/Close World Map
-
-\---
-
-# Why Is the Action Bar Arranged This Way?
-
-The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around **how the World of Warcraft interface appears while wearing a VR headset**.
-
-The layout is not intended to reproduce the traditional left-to-right approach used when playing WoW on a monitor.
+The arrangement is also designed for comfortable kiting and combat while maintaining movement. Frequently used abilities can be activated with the face buttons and grip combinations without requiring the player to constantly remove their thumbs from the movement and camera controls.
 
 ## Right-to-Left Ability Progression
 
