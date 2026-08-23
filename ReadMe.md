@@ -136,31 +136,34 @@ The controller system has been substantially redesigned around **actual VR gamep
 
 Quest grip buttons function as modifiers, allowing the limited number of physical controller buttons to access an entire primary World of Warcraft action bar while preserving important movement, targeting, mouse, map, inventory, and jumping controls.
 
-VR Controller Layout
-🎮 Action Bar
-Right Stick Click → Slot 2
-Either Grip + Right Stick Click → Slot 1
-Left Stick Click → Slot 4
-Either Grip + Left Stick Click → Slot 3
-X → Slot 6
-Either Grip + X → Slot 5
-Y → Slot 8
-Either Grip + Y → Slot 7
-B → Slot 10
-Either Grip + B → Slot 9
-Left Trigger → Slot 12
-Right Grip + Left Trigger → Slot 11
-Left Grip + Left Trigger → Switch Action Page
-🕹️ Movement & Utility
-Left Stick → Character Movement
-Right Stick → Camera Control
-A → Jump
-Right Grip + A → Tab Target / Target Nearest Enemy
-Left Grip + A → Open/Close World Map
-Right Trigger → Left Mouse Click
-Right Grip + Right Trigger → Right Mouse Click
-Left Grip + Right Trigger → Open/Close Backpack
+## VR Controller Layout
 
+### 🎮 Action Bar
+
+- **Right Stick Click** → Slot 2
+- **Either Grip + Right Stick Click** → Slot 1
+- **Left Stick Click** → Slot 4
+- **Either Grip + Left Stick Click** → Slot 3
+- **X** → Slot 6
+- **Either Grip + X** → Slot 5
+- **Y** → Slot 8
+- **Either Grip + Y** → Slot 7
+- **B** → Slot 10
+- **Either Grip + B** → Slot 9
+- **Left Trigger** → Slot 12
+- **Right Grip + Left Trigger** → Slot 11
+- **Left Grip + Left Trigger** → Switch Action Page
+
+### 🕹️ Movement & Utility
+
+- **Left Stick** → Character Movement
+- **Right Stick** → Camera Control
+- **A** → Jump
+- **Right Grip + A** → Tab Target / Target Nearest Enemy
+- **Left Grip + A** → Open/Close World Map
+- **Right Trigger** → Left Mouse Click
+- **Right Grip + Right Trigger** → Right Mouse Click
+- **Left Grip + Right Trigger** → Open/Close Backpack
 The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
 
 The arrangement is also designed for comfortable kiting and combat while maintaining movement. Frequently used abilities can be activated with the face buttons and grip combinations without requiring the player to constantly remove their thumbs from the movement and camera controls.
