@@ -6,6 +6,17 @@ An unofficial community patch for **ProjectMimer's WoVR**, focused on improving 
 
 ## 🔧 Latest Update — August 22, 2026
 
+🎮 Grip Modifier Camera Jerk Fix
+Fixed unintended camera jerking/movement when using Grip-modified controls.
+Corrected conflicts affecting:
+Grip + Y
+Grip + X
+Grip + B
+Grip + Left Stick Click
+Grip + Right Stick Click
+Normal button/stick actions are now properly suppressed while Grip is held, preventing the underlying camera controls from firing alongside the modified command.
+Standard controls continue to function normally when Grip is not held.
+
 - Fixed an issue where pressing **LGrip + A** to open the map while moving could cause the character to suddenly turn 180°.
 - Removed unintended character-facing logic from the map input.
 - **LGrip + A** now opens the map without affecting character movement or facing.
