@@ -164,7 +164,8 @@ Quest grip buttons function as modifiers, allowing the limited number of physica
 - **Right Trigger** → Left Mouse Click
 - **Right Grip + Right Trigger** → Right Mouse Click
 - **Left Grip + Right Trigger** → Open/Close Backpack
-- **The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
+
+The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
 
 The arrangement is also designed for comfortable kiting and combat while maintaining movement. Frequently used abilities can be activated with the face buttons and grip combinations without requiring the player to constantly remove their thumbs from the movement and camera controls.
 
