@@ -4,7 +4,18 @@
 
 An unofficial community patch for **ProjectMimer's WoVR**, focused on improving World of Warcraft 3.3.5a VR functionality, comfort, Meta Quest controller support, and overall playability.
 
-## 🔧 Latest Update — August 22, 2026
+## Patch Notes — August 23, 2026
+
+Healer-Friendly Targeting Update
+
+LGrip + A now targets the nearest friendly player, making party and raid healing much more intuitive in VR.
+RGrip + A remains Target Nearest Enemy, giving quick access to both friendly and hostile targets from the same button.
+Map has been moved to LGrip + Right Trigger, replacing the previous backpack shortcut.
+In-game setup: Bind Target Nearest Friendly Player to F8 in WoW's Key Bindings.
+
+This update makes the controller layout significantly more healer-friendly while keeping combat targeting fast and accessible.
+
+## Update — August 22, 2026
 
 🎮 Controller Binding Update
 Swapped the 5/6 and 9/10 action-slot mappings to create a more logical layout for kiting while moving in combat.
