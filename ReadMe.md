@@ -173,10 +173,10 @@ Quest grip buttons function as modifiers, allowing the limited number of physica
 - **Right Stick** → Camera Control
 - **A** → Jump
 - **Right Grip + A** → Tab Target / Target Nearest Enemy
-- **Left Grip + A** → Open/Close World Map
+- **Left Grip + A** → Target Nearest Friendly Player
 - **Right Trigger** → Left Mouse Click
 - **Right Grip + Right Trigger** → Right Mouse Click
-- **Left Grip + Right Trigger** → Open/Close Backpack
+- **Left Grip + Right Trigger** → Open/Close Map
 
 The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
 
