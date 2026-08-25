@@ -4,7 +4,7 @@
 
 An unofficial community patch for **ProjectMimer's WoVR**, focused on improving World of Warcraft 3.3.5a VR functionality, comfort, Meta Quest controller support, and overall playability.
 
-## Notice! Aware of an issue where nameplates show separately in VR, rather than lining up properly. Currently 18 hours deep into troubleshooting. Will post update and patch notes when ready.
+## Notice! Aware of an issue where nameplates show separately in VR, rather than lining up properly. Currently 20 hours deep into troubleshooting. Will post update and patch notes when ready.
 
 ## Patch Notes — August 23, 2026
 
