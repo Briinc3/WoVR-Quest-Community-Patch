@@ -4,7 +4,109 @@
 
 An unofficial community patch for **ProjectMimer's WoVR**, focused on improving World of Warcraft 3.3.5a VR functionality, comfort, Meta Quest controller support, and overall playability.
 
-## Notice! Aware of an issue where nameplates show separately in VR, rather than lining up properly. Currently 20 hours deep into troubleshooting. Will post update and patch notes when ready.
+## Update - August, 25, 2026
+
+## ⚠️ Known Limitation — Nameplate Stereo Rendering
+
+### Double Nameplates in VR
+
+When enemy or friendly nameplates are enabled, WoVR may display what appears to be two slightly offset copies of the same nameplate.
+
+This is a known visual limitation of the current build.
+
+It does **not** affect targeting, combat, controller input, UI interaction, or normal gameplay.
+
+### Why wasn't this simply fixed?
+
+We spent approximately **24 hours investigating this issue**, including extensive source-code testing, render logging, shader identification, texture tracing, per-eye rendering experiments, UI render-target testing, and testing with both Blizzard's default nameplates and 3.3.5a-compatible Tidy Plates.
+
+During that investigation, we learned that WoW's nameplates behave differently from normal interface elements.
+
+Nameplates are tied to the game's world/UI rendering system rather than behaving like ordinary static interface elements such as action bars, bags, or character windows.
+
+WoVR then has to translate WoW's original DirectX 9 rendering into a stereoscopic VR image.
+
+This creates an unusual situation:
+
+- The 3D world is rendered separately for each eye.
+- Much of WoW's interface is rendered through a shared UI path.
+- Nameplates are visually attached to objects in the 3D world while also being handled through WoW's UI system.
+- In VR, this can result in the nameplate appearing at slightly different positions between the two eye views.
+
+Your brain therefore sees two offset nameplates instead of one perfectly fused plate.
+
+### Why not just line the two nameplates up?
+
+Unfortunately, the two images cannot simply be moved on top of each other.
+
+Correct stereoscopic placement depends on several things, including:
+
+- Left/right eye position
+- Camera projection
+- Head movement
+- Distance from the player
+- The position of the unit in the 3D world
+- WoW's UI/world projection
+- WoVR's stereo rendering pipeline
+
+A fixed offset might make a nameplate line up at one particular distance or viewing angle, but it could become incorrect again as soon as the player moves their head, turns the camera, or the enemy changes distance.
+
+A proper solution would therefore require changing how the nameplate is projected into VR rather than simply shifting one copy sideways.
+
+### What we tried
+
+During development we tested multiple approaches, including:
+
+- Identifying nameplate-specific DirectX draw calls
+- Comparing render logs with nameplates ON and OFF
+- Tracking vertex and pixel shader hashes
+- Tracking texture dimensions and texture identities
+- Suppressing suspected nameplate draw signatures
+- Investigating WoW's shared UI render path
+- Investigating WoVR's UI render groups
+- Testing separate left-eye UI rendering
+- Testing independent UI render textures
+- Testing per-eye UI compositing
+- Investigating removal of the nameplate from only one eye
+- Testing the original Blizzard nameplates
+- Testing 3.3.5a Tidy Plates behavior
+
+Several experiments successfully isolated portions of WoVR's rendering pipeline, but attempts to manipulate the nameplates independently also risked affecting unrelated systems such as UI rendering, mouse/controller collision, or an entire eye's rendered image.
+
+Because the nameplates are intertwined with systems that are otherwise functioning correctly, increasingly aggressive modifications created a greater risk of introducing gameplay-breaking problems elsewhere.
+
+### Why we're leaving it alone
+
+After roughly **24 hours of trial, error, testing, rebuilding, and investigating the WoW/WoVR rendering pipeline**, we made the decision to leave the current behavior intact.
+
+WoVR's core functionality is working:
+
+- Head tracking works.
+- Stereo 3D works.
+- Motion/controller input works.
+- UI interaction works.
+- Combat and targeting work.
+- Nameplates themselves still function.
+
+The remaining issue is primarily visual.
+
+At a certain point, fixing a cosmetic rendering quirk was no longer worth risking regressions to the systems that make the game playable in VR.
+
+This project is about making World of Warcraft 3.3.5a enjoyable and practical to play in VR — not sacrificing a working build in pursuit of one stubborn nameplate. 🙂
+
+### Could this be fixed someday?
+
+Possibly.
+
+A future solution would likely need to identify the nameplate earlier in WoW's rendering pipeline and give it proper VR-aware stereoscopic positioning, rather than attempting to modify the finished image afterward.
+
+For now:
+
+**Double nameplates are a known limitation of the WoVR Quest Community Build.**
+
+And after ~24 hours of investigation...
+
+**we promise, we noticed them too. 😂**
 
 ## Patch Notes — August 23, 2026
 
