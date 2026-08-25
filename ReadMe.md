@@ -18,7 +18,7 @@ It does **not** affect targeting, combat, controller input, UI interaction, or n
 
 ### Why wasn't this simply fixed?
 
-We spent approximately **24 hours investigating this issue**, including extensive source-code testing, render logging, shader identification, texture tracing, per-eye rendering experiments, UI render-target testing, and testing with both Blizzard's default nameplates and 3.3.5a-compatible Tidy Plates.
+We spent approximately **24 working hours investigating this issue**, including extensive source-code testing, render logging, shader identification, texture tracing, per-eye rendering experiments, UI render-target testing, and testing with both Blizzard's default nameplates and 3.3.5a-compatible Tidy Plates.
 
 During that investigation, we learned that WoW's nameplates behave differently from normal interface elements.
 
@@ -107,6 +107,8 @@ For now:
 And after ~24 hours of investigation...
 
 **we promise, we noticed them too. 😂**
+
+It breaks my heart that we weren't able to succeed in making the nameplates work. I'm hoping to revisit and tackle this problem later down the road. But for now, I'm going to continue playing with nameplates off and keep making my journey to take down the Lich King in VR! Along with fixing everything else I may encounter down the road. Till next time, Friends. I'll see you in Azeroth!
 
 ## Patch Notes — August 23, 2026
 
