@@ -150,6 +150,15 @@ Standard controls continue to function normally when Grip is not held.
 
 Want to see WoVR running before installing it?
 
+### 🏰 Tram Ride & Gryphon Flight — World of Warcraft in VR
+
+▶️ [Watch the WoVR Tram Ride & Gryphon Flight Showcase](https://youtu.be/6FlpryqCXLo)
+
+Take a ride through Azeroth in VR! This showcase features the Deeprun Tram between Ironforge and Stormwind followed by a gryphon flight back to Ironforge, demonstrating head tracking, smooth locomotion, VR UI interaction, and the overall immersion of experiencing World of Warcraft from inside the headset.
+
+### ⚔️ WoVR Gameplay Showcase
+
+
 ▶️ [Watch the WoVR Gameplay Showcase](https://youtu.be/UPFQkjPexrE)
 
 See World of Warcraft 3.3.5a running in VR with first-person exploration, motion controls, UI and menu interaction, and combat.
