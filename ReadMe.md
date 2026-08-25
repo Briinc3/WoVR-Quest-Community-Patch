@@ -4,6 +4,39 @@
 
 An unofficial community patch for **ProjectMimer's WoVR**, focused on improving World of Warcraft 3.3.5a VR functionality, comfort, Meta Quest controller support, and overall playability.
 
+## 🎥 See WoVR in Action
+
+Want to see WoVR running before installing it?
+
+### 🏰 Tram Ride & Gryphon Flight — World of Warcraft in VR
+
+▶️ [Watch the WoVR Tram Ride & Gryphon Flight Showcase](https://youtu.be/6FlpryqCXLo)
+
+Take a ride through Azeroth in VR! This showcase features the Deeprun Tram between Ironforge and Stormwind followed by a gryphon flight back to Ironforge, demonstrating head tracking, smooth locomotion, VR UI interaction, and the overall immersion of experiencing World of Warcraft from inside the headset.
+
+### ⚔️ WoVR Gameplay Showcase
+
+
+▶️ [Watch the WoVR Gameplay Showcase](https://youtu.be/UPFQkjPexrE)
+
+See World of Warcraft 3.3.5a running in VR with first-person exploration, motion controls, UI and menu interaction, and combat.
+
+### 💚 Support the Project
+
+The **WoVR Quest Community Patch is completely free** and will remain freely available through GitHub.
+
+If you'd like to support the time that goes into development, testing, troubleshooting, documentation, and future improvements:
+
+☕ [Support Briinc3 on Ko-fi](https://ko-fi.com/briinc3)
+
+Support is completely optional and is **not required to download or use the community patch.**
+
+### 📥 Download
+
+➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
+
+---
+
 ## Update - August, 25, 2026
 
 ## ⚠️ Known Limitation — Nameplate Stereo Rendering
@@ -146,39 +179,6 @@ Standard controls continue to function normally when Grip is not held.
 - **LGrip + A** now opens the map without affecting character movement or facing.
 
 \---
-## 🎥 See WoVR in Action
-
-Want to see WoVR running before installing it?
-
-### 🏰 Tram Ride & Gryphon Flight — World of Warcraft in VR
-
-▶️ [Watch the WoVR Tram Ride & Gryphon Flight Showcase](https://youtu.be/6FlpryqCXLo)
-
-Take a ride through Azeroth in VR! This showcase features the Deeprun Tram between Ironforge and Stormwind followed by a gryphon flight back to Ironforge, demonstrating head tracking, smooth locomotion, VR UI interaction, and the overall immersion of experiencing World of Warcraft from inside the headset.
-
-### ⚔️ WoVR Gameplay Showcase
-
-
-▶️ [Watch the WoVR Gameplay Showcase](https://youtu.be/UPFQkjPexrE)
-
-See World of Warcraft 3.3.5a running in VR with first-person exploration, motion controls, UI and menu interaction, and combat.
-
-### 💚 Support the Project
-
-The **WoVR Quest Community Patch is completely free** and will remain freely available through GitHub.
-
-If you'd like to support the time that goes into development, testing, troubleshooting, documentation, and future improvements:
-
-☕ [Support Briinc3 on Ko-fi](https://ko-fi.com/briinc3)
-
-Support is completely optional and is **not required to download or use the community patch.**
-
-### 📥 Download
-
-➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
-
----
-
 
 # About This Project
 
