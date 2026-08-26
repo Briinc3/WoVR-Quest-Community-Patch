@@ -280,10 +280,10 @@ Quest grip buttons function as modifiers, allowing the limited number of physica
 
 ### 🎮 Action Bar
 
-- **Right Stick Click** → Slot 2
-- **Either Grip + Right Stick Click** → Slot 1
-- **Left Stick Click** → Slot 4
-- **Either Grip + Left Stick Click** → Slot 3
+- **Left Stick Click** → Slot 2
+- **Either Grip + Left Stick Click** → Slot 1
+- **Right Stick Click** → Slot 4
+- **Either Grip + Right Stick Click** → Slot 3
 - **X** → Slot 6
 - **Either Grip + X** → Slot 5
 - **Y** → Slot 8
