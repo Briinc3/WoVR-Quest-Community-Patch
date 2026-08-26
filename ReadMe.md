@@ -17,7 +17,7 @@ Take a ride through Azeroth in VR! This showcase features the Deeprun Tram betwe
 ### ⚔️ WoVR Gameplay Showcase
 
 
-▶️ [Watch the WoVR Gameplay Showcase](https://youtu.be/UPFQkjPexrE)
+▶️ [Watch the WoVR Gameplay Showcase](https://www.youtube.com/watch?v=wEPjaiBd0x8&t=14s)
 
 See World of Warcraft 3.3.5a running in VR with first-person exploration, motion controls, UI and menu interaction, and combat.
 
