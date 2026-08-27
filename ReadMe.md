@@ -303,10 +303,14 @@ Quest grip buttons function as modifiers, allowing the limited number of physica
 - **Right Stick** → Camera Control
 - **A** → Jump
 - **Right Grip + A** → Tab Target / Target Nearest Enemy
-- **Left Grip + A** → Target Nearest Friendly Player
+- **Left Grip + A** → F8
 - **Right Trigger** → Left Mouse Click
 - **Right Grip + Right Trigger** → Right Mouse Click
 - **Left Grip + Right Trigger** → Open/Close Map
+
+##Why is Left Grip + A = F8?##
+
+My reasoning for this is to have a comfortable keybinding that can be interchangeable in the ingame keybindings. So far example, when I first started playing with my build, i had it set to open back. Which is pretty useful if you have Bagnon. The Healer main in me also thought about changing it to Target Nearest Friendly Player so I can "tab target" my party members in dungeons, while reserving the second action bar page for focus macros for the tank. Personally, one thing I discovered while playing today is I dont have any way to natively swim or fly down with my control scheme. So right now my Left Grip + A is set to go down when flying or swimming. Luckily if feels natural considering swim/fly up and Jump are both mapped the Normal A button.
 
 The action-bar assignments in the WoVR Quest Community Patch are intentionally designed around how the World of Warcraft interface appears while wearing a VR headset, rather than reproducing the traditional left-to-right keyboard layout.
 
