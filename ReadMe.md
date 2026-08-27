@@ -473,7 +473,13 @@ Do not install the VR modification yet.
 
 \---
 
-# Step 2 — Create a ChromieCraft Account
+# Step 2 — Create a ChromieCraft/Warmane account
+
+## Update - August, 26, 2026
+
+This Mod was just tested for Warmane and runs with no issues!!!
+
+
 
 The WoVR Quest Community Patch was developed and tested while connecting to **ChromieCraft**.
 
