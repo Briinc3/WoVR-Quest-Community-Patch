@@ -38,7 +38,7 @@ Support is completely optional and is **not required to download or use the comm
 ---
 ## Update - August, 25, 2026
 
-Tested and works with Warmane!!! which is a way more popular server than Chromiecraft!
+Warmane: Tested and working with the Warmane 3.3.5a client. This does not imply endorsement or approval by Warmane. Use of client modifications is subject to the rules of the server you connect to.
 
 ## Update - August, 25, 2026
 
