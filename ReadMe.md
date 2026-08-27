@@ -36,6 +36,9 @@ Support is completely optional and is **not required to download or use the comm
 ➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
 
 ---
+## Update - August, 25, 2026
+
+Tested and works with Warmane!!! which is a way more popular server than Chromiecraft!
 
 ## Update - August, 25, 2026
 
