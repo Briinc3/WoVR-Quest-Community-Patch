@@ -36,7 +36,7 @@ Support is completely optional and is **not required to download or use the comm
 ➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
 
 ---
-## Update - August, 25, 2026
+## Update - August, 26, 2026
 
 Warmane: Tested and working with the Warmane 3.3.5a client. This does not imply endorsement or approval by Warmane. Use of client modifications is subject to the rules of the server you connect to.
 
