@@ -39,7 +39,7 @@ Support is completely optional and is **not required to download or use the comm
 ## Update - August, 29, 2026
 
 Flat VR Interface — Reworked the WoW UI rendering surface from a curved segmented panel to a flat VR display for improved readability, consistency, and menu interaction.
-+ Ability to switch back to the curved UI look if you wish. The current D3D9.dll file has the flat UI, while the D3D9_(curved UI).dll has the curved UI. To switch, all you need to do is remove the _(Curved ui) text from that dll, and rename the current one to D3D9_(Flat ui).dll and vise versa if you want to switch back.
++ Ability to switch back to the curved UI look if you wish. The current D3D9.dll file has the flat UI, while the D3D9_(curved UI).dll has the curved UI. To switch, all you need to do is remove the _(Curved ui) text from that dll, and rename the current one to  D3D9(Flat ui).dll and vise versa if you want to switch back.
 
 ## Update - August, 26, 2026
 
