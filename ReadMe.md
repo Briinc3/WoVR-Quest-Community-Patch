@@ -29,6 +29,8 @@ If you'd like to support the time that goes into development, testing, troublesh
 
 ☕ [Support Briinc3 on Ko-fi](https://ko-fi.com/briinc3)
 
+WoVR Quest Community Build is a community-maintained modification based on the original ProjectMimer WoWVR project. The original ProjectMimer developers are credited on the project page. WoVR is completely free; donations are optional and support my continued development, testing, documentation, and maintenance of this community build.
+
 Support is completely optional and is **not required to download or use the community patch.**
 
 ### 📥 Download
