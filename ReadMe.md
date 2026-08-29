@@ -153,6 +153,8 @@ And after ~24 hours of investigation...
 
 It breaks my heart that we weren't able to succeed in making the nameplates work. I'm hoping to revisit and tackle this problem later down the road. But for now, I'm going to continue playing with nameplates off and keep making my journey to take down the Lich King in VR! Along with fixing everything else I may encounter down the road. Till next time, Friends. I'll see you in Azeroth!
 
+PS - Same thing occurs with floating combat text, where it shows twice instead of once. I too, play with this off. Luckily combat text isnt as important as nameplates, but I'm hoping to fix both issues one of these one day.
+
 🎮 Controller Mapping Update — Stick Click Swap
 Swapped the Left Stick Click and Right Stick Click action-slot bindings.
 This makes the controller layout feel more natural and mentally consistent when moving through the action bar.
