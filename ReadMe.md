@@ -495,11 +495,13 @@ This Mod was just tested for Warmane and runs with no issues!!!
 
 
 
-The WoVR Quest Community Patch was developed and tested while connecting to **ChromieCraft**.
+The WoVR Quest Community Patch was first developed and tested while connecting to **ChromieCraft**.
 
-Create the required ChromieCraft/game account using ChromieCraft's current registration instructions.
+Create the required ChromieCraft/Warmane game account using ChromieCraft's/Warmane's current registration instructions.
 
 Complete the account setup before modifying the World of Warcraft client.
+
+(Warmane is FAR more popular than Chromiecraft and runs just as perfectly)
 
 \---
 
@@ -507,7 +509,7 @@ Complete the account setup before modifying the World of Warcraft client.
 
 A client obtained through TheraWoW may initially be configured to connect to the TheraWoW server.
 
-To use the client with ChromieCraft, locate the World of Warcraft realmlist file.
+To use the client with ChromieCraft or Warmane, locate the World of Warcraft realmlist file.
 
 This will normally be located inside a path similar to:
 
@@ -517,7 +519,7 @@ The locale folder may have a different name depending on the language of the cli
 
 Open `realmlist.wtf` using Notepad or another plain-text editor.
 
-Replace the existing server information with the **current ChromieCraft realmlist**.
+Replace the existing server information with the **current ChromieCraft/Warmane realmlist**.
 
 Save the file.
 
@@ -547,7 +549,7 @@ Before installing WoVR:
 
 1. Launch `Wow.exe` normally.
 2. Confirm that World of Warcraft reaches the login screen.
-3. Log into the ChromieCraft account.
+3. Log into the ChromieCraft/Warmane account.
 4. Confirm that the client successfully connects.
 5. Reach the character-selection screen.
 6. Enter the game normally at least once.
@@ -579,9 +581,11 @@ If SteamVR cannot correctly detect the headset or controllers, correct that issu
 
 # Step 7 — Install the Required WoVR Files
 
-The working WoVR setup requires **three components**:
+The working WoVR setup requires **Four components**:
 
-`d3d9.dll`
+`d3d9.dll` (This is the Flat UI default option)
+
+`d3d9_(curved ui).dll` (This is the build for the Curved UI instead. Make sure the UI build you want is defaultly named `d3d9.dll` then label the other dll file you don't use its respective name. The mod only reads the file named `d3d9.dll`, So feel free to name the other UI option whatever you like.
 
 `openvr\_api.dll`
 
@@ -595,6 +599,7 @@ The finished directory should resemble:
 World of Warcraft\\
 ├── Wow.exe
 ├── d3d9.dll
+├── d3d9_(Curved ui).dll
 ├── openvr\_api.dll
 ├── vr\\
 └── \[normal WoW files and folders]
@@ -618,38 +623,13 @@ The `vr` folder contains files required by WoVR, including VR configuration info
 
 \---
 
-# Step 8 — Back Up a Working DLL
-
-Once WoVR is working correctly, create a **copy** of:
-
-`d3d9.dll`
-
-Rename the copy:
-
-`d3d9\_old.dll`
-
-Leave the active version named:
-
-`d3d9.dll`
-
-The directory can then contain:
-
-```text id="x28gdu"
-d3d9.dll       ← Active WoVR build
-d3d9\_old.dll   ← Known-good backup
-```
-
-This provides a quick recovery option if a future patch or modification causes problems.
-
-\---
-
-# Step 9 — First VR Launch
+# Step 8 — First VR Launch
 
 With the Meta Quest connected:
 
 1. Start SteamVR.
 2. Verify that the headset and controllers appear normally.
-3. Launch WoW using the configured WoVR installation.
+3. Launch WoW using the configured WoVR installation. (Wow.exe, not the launcher)
 4. Allow WoW to initialize through SteamVR.
 5. Log into the game.
 6. Enter the world.
@@ -666,7 +646,7 @@ Verify that:
 
 \---
 
-# Step 10 — Required WoW Keybinding Change
+# Step 9 — Required WoW Keybinding Change
 
 The community controller configuration requires an important change to WoW's default action-page bindings.
 
@@ -698,7 +678,7 @@ This keybinding change is **required for the VR action-page control to function 
 
 \---
 
-# Step 11 — Configure Your Action Bars
+# Step 10 — Configure Your Action Bars
 
 Once the controller is working, arrange your abilities according to personal preference.
 
