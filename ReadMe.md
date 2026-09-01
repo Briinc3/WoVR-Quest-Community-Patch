@@ -43,6 +43,10 @@ Support is completely optional and is **not required to download or use the comm
 ➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
 
 ---
+## Update - September, 1, 2026
+
+Gave short entry on how flying works in the chontrol scheme section of this text file. I just experienced it for the first time today and to change the vertical angle you are flying at, you use the right stick to control your altitude.
+
 ## Update - August, 29, 2026
 
 Flat VR Interface — Reworked the WoW UI rendering surface from a curved segmented panel to a flat VR display for improved readability, consistency, and menu interaction.
