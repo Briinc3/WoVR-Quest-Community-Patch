@@ -322,6 +322,10 @@ Quest grip buttons function as modifiers, allowing the limited number of physica
 - **Right Grip + Right Trigger** → Right Mouse Click
 - **Left Grip + Right Trigger** → Open/Close Map
 
+## Notice for Swimming and Flying!!!
+
+Swimming and flying behave a little funky, but it works. So when you hold A to fly up, whenever you move forward, you keep moving up at that steep angle. The right joystick controls your verticle axis. So, if you are stuck flying straight up or straight down, re-align yourself with the right joystick, then you will be able to move up and down freely. This also works if you choose to bind F8 to move down with LGrip + A in ingame keybindings. It's aggressive at first, but easy to adjust once you know this.
+
 ## Why is Left Grip + A = F8?
 
 My reasoning for this is to have a comfortable keybinding that can be interchangeable in the ingame keybindings. So far example, when I first started playing with my build, i had it set to open back. Which is pretty useful if you have Bagnon. The Healer main in me also thought about changing it to Target Nearest Friendly Player so I can "tab target" my party members in dungeons, while reserving the second action bar page for focus macros for the tank. Personally, one thing I discovered while playing today is I dont have any way to natively swim or fly down with my control scheme. So right now my Left Grip + A is set to go down when flying or swimming. Luckily if feels natural considering swim/fly up and Jump are both mapped the Normal A button.
