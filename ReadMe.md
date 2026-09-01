@@ -21,6 +21,11 @@ Take a ride through Azeroth in VR! This showcase features the Deeprun Tram betwe
 
 See World of Warcraft 3.3.5a running in VR with first-person exploration, motion controls, UI and menu interaction, and combat.
 
+### ❄️ Death Knight Intro Video
+
+
+▶️ [Watch the Birth of Briince](https://www.youtube.com/watch?v=T37KNJPDxfA)
+
 ### 💚 Support the Project
 
 The **WoVR Quest Community Patch is completely free** and will remain freely available through GitHub.
