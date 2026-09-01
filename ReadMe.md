@@ -594,7 +594,7 @@ The working WoVR setup requires **Four components**:
 
 `d3d9_(curved ui).dll` (This is the build for the Curved UI instead. Make sure the UI build you want is defaultly named `d3d9.dll` then label the other dll file you don't use its respective name. The mod only reads the file named `d3d9.dll`, So feel free to name the other UI option whatever you like.
 
-`openvr\_api.dll`
+`openvr_api.dll`
 
 `vr` folder
 
