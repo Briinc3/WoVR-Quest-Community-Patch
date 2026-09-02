@@ -43,6 +43,55 @@ Support is completely optional and is **not required to download or use the comm
 ➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
 
 ---
+## Update - September, 2, 2026
+
+### 🧠 Recommended: Enable Large Address Aware (4GB Patch)
+
+WoW 3.3.5a is a 32-bit application and can normally run into a ~2GB memory address limit. This can cause the game to crash in high-intensity areas or situations, especially while using WoVR.
+
+Common examples include:
+
+- Entering Dalaran or other highly populated areas
+- Large dungeon or raid pulls
+- Multiple spell/particle effects occurring at once
+- AoE-heavy abilities such as Death and Decay
+- Longer VR play sessions
+
+The crash may display an error similar to:
+
+> **Not enough memory resources are available to process this command.**
+
+Because WoVR adds additional VR rendering overhead to the WoW process, enabling **Large Address Aware (LAA)** is highly recommended.
+
+On 64-bit versions of Windows, this allows the 32-bit WoW client to access up to **4GB of virtual address space instead of the normal 2GB limit**.
+
+#### How to Enable Large Address Aware
+
+1. Close World of Warcraft completely.
+2. Navigate to your WoVR/WoW installation folder.
+3. Download the **4GB Patch by NTCore**:
+   
+   https://ntcore.com/4gb-patch/
+
+4. Extract and run `4gb_patch.exe`.
+5. When prompted to select an executable, choose the `Wow.exe` located in your WoVR installation folder.
+6. The patcher should confirm that the executable was successfully patched.
+7. Launch WoW normally through your WoVR setup.
+
+That's it! No additional Windows settings are required.
+
+#### Does this affect WoVR?
+
+No. The patch simply enables the Large Address Aware flag on `Wow.exe`. It does not modify WoVR's `d3d9.dll`, OpenVR files, controller bindings, or VR configuration.
+
+#### Why We Recommend This
+
+During testing, the unpatched 3.3.5a client experienced memory-related crashes in high-load situations such as entering Dalaran and using Death and Decay around multiple players and spell effects.
+
+After enabling Large Address Aware, stability and performance in these situations improved dramatically.
+
+For this reason, **enabling the 4GB/LAA patch is strongly recommended for WoVR users.**
+
 ## Update - September, 1, 2026
 
 Gave a short entry on how flying works in the control scheme section of this text file. I just experienced it for the first time today and to change the vertical angle you are flying at, you use the right stick to control your altitude.
@@ -610,13 +659,12 @@ Copy all three directly into the main World of Warcraft directory containing `Wo
 
 The finished directory should resemble:
 
-```text id="m7g19q"
-World of Warcraft\\
+World of Warcraft
 ├── Wow.exe
 ├── d3d9.dll
 ├── d3d9_(Curved ui).dll
-├── openvr\_api.dll
-├── vr\\
+├── openvr_api.dll
+├── vr
 └── \[normal WoW files and folders]
 ```
 
@@ -637,6 +685,12 @@ Do not remove individual files from the `vr` folder or scatter its contents thro
 The `vr` folder contains files required by WoVR, including VR configuration information, OpenVR action files, and interface assets.
 
 \---
+
+### Final Recommended Step
+
+Before launching WoVR for the first time, it is strongly recommended that you apply the **4GB/Large Address Aware patch** to `Wow.exe`.
+
+See the **Large Address Aware (4GB Patch)** section above (In the Updates section near the top (9/2/2026) for setup information.
 
 # Step 8 — First VR Launch
 
