@@ -43,6 +43,84 @@ Support is completely optional and is **not required to download or use the comm
 ➡️ [Download the latest WoVR Quest Community Patch](https://github.com/Briinc3/WoVR-Quest-Community-Patch)
 
 ---
+## Update - September, 2, 2026 - Part 2
+
+### 🚀 Optional Performance Optimization: Launch WoVR at High CPU Priority
+
+After applying the **4GB / Large Address Aware patch**, you can optionally configure WoVR to launch World of Warcraft with **High CPU priority**.
+
+During testing, running `Wow.exe` at High priority alongside the 4GB patch provided a noticeable improvement in VR smoothness and overall responsiveness, particularly in demanding areas and situations with many spell effects.
+
+> **Note:** This optimization is optional. Results may vary depending on your CPU, GPU, VR headset, and other applications running in the background.
+
+#### Why Use High Priority?
+
+WoW 3.3.5a is an older game, but running it through WoVR adds additional VR rendering work on top of the original game.
+
+Setting `Wow.exe` to High priority tells Windows to give the WoW process greater CPU scheduling preference when competing with other normal-priority applications.
+
+Rather than manually changing the priority through Task Manager every time you play, you can create a shortcut that automatically launches WoVR at High priority.
+
+#### Creating a High Priority WoVR Shortcut
+
+1. Right-click an empty area on your Desktop.
+2. Select **New → Shortcut**.
+3. In the location field, enter:
+
+   ```text
+   C:\Windows\System32\cmd.exe /c start "" /high "C:\Path\To\Your\WoVR\Wow.exe"
+   ```
+
+4. Replace:
+
+   ```text
+   C:\Path\To\Your\WoVR\Wow.exe
+   ```
+
+   with the actual location of your `Wow.exe`.
+
+   For example:
+
+   ```text
+   C:\Windows\System32\cmd.exe /c start "" /high "C:\Games\WoVR\Wow.exe"
+   ```
+
+5. Click **Next**.
+6. Name the shortcut something like:
+
+   ```text
+   WoVR - High Performance
+   ```
+
+7. Click **Finish**.
+
+You can now use this shortcut whenever you want to launch WoVR.
+
+#### ⚠️ Do NOT Use Realtime Priority
+
+**High is the maximum priority recommended for WoVR.**
+
+Do **not** configure `Wow.exe` to use Realtime priority.
+
+Realtime priority can interfere with important Windows processes, input handling, audio, SteamVR, and other system tasks. In extreme cases, it can make Windows temporarily unresponsive.
+
+For WoVR:
+
+- **Normal** — Windows default
+- **Above Normal** — Safe optional increase
+- **High** — Recommended performance option if it improves your system
+- **Realtime** — ❌ Do not use
+
+#### Tested Configuration
+
+The WoVR Community Build has been successfully tested with:
+
+**4GB / Large Address Aware Patch + High CPU Priority**
+
+This combination produced a significant improvement during testing, including smoother VR gameplay in demanding areas and situations involving numerous players, NPCs, and spell effects.
+
+We recommend applying the **4GB / Large Address Aware patch first**, then testing the High priority launcher to determine whether it provides additional performance improvements on your system.
+
 ## Update - September, 2, 2026
 
 ### 🧠 Recommended: Enable Large Address Aware (4GB Patch)
